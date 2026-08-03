@@ -21,9 +21,7 @@ impl Deck {
             }
         }
 
-        let deck : Deck = Deck { cards };
-
-        return deck;
+        Deck { cards }
     }
 }
 
